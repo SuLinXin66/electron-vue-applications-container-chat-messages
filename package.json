@@ -7,7 +7,10 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@types/js-base64": "^2.3.1",
     "core-js": "^3.4.4",
+    "js-base64": "^2.5.1",
+    "kscreenshot": "^1.2.3",
     "view-design": "^4.0.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",

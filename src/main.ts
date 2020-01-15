@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import 'view-design/dist/styles/iview.css'
+import './assets/fonts/apps/app-font.css'
+import './assets/fonts/chat/message/chatMsgFont.css'
 
 import ElectronMatch from "@/utils/electron";
 
