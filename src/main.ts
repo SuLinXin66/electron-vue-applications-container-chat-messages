@@ -21,7 +21,7 @@ declare module "vue/types/vue" {
     // messageRegistry: (key: string, messageObserve: MessageObserves) => void;
     isHaveElectron: boolean,
     electronRemote: Remote,
-    electronIpcRenderer: IpcRenderer
+    electronIpcRenderer: IpcRenderer,
   }
 }
 

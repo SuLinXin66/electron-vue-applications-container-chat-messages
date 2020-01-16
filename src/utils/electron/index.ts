@@ -7,6 +7,10 @@ export default {
       const electron = (window as any).require("electron");
       Vue.prototype.electronRemote = electron.remote;
       Vue.prototype.electronIpcRenderer = electron.ipcRenderer;
+      Vue.prototype.electronDesktopCapturer = electron.desktopCapturer;
+      Vue.prototype.electronScreen = electron.remote.screen;
+      Vue.prototype.electron = electron;
+
     }
   },
   isHaveElectron
